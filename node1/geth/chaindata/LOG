@@ -1,0 +1,35 @@
+=============== May 4, 2021 (EDT) ===============
+21:14:06.629563 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:14:06.705033 db@open opening
+21:14:06.706970 version@stat F·[] S·0B[] Sc·[]
+21:14:06.733383 db@janitor F·2 G·0
+21:14:06.733463 db@open done T·28.388875ms
+21:14:06.734868 db@close closing
+21:14:06.735023 db@close done T·153.428µs
+=============== May 4, 2021 (EDT) ===============
+21:18:52.320711 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:18:52.321035 version@stat F·[] S·0B[] Sc·[]
+21:18:52.321081 db@open opening
+21:18:52.321200 journal@recovery F·1
+21:18:52.504381 journal@recovery recovering @1
+21:18:52.533224 memdb@flush created L0@2 N·10 S·704B "H\xb4X..\xd4B{,v3":"r\x00\x00..\xd4B{,v5"
+21:18:52.538276 version@stat F·[1] S·704B[704B] Sc·[0.25]
+21:18:52.643342 db@janitor F·3 G·0
+21:18:52.643375 db@open done T·322.273023ms
+21:18:52.776560 table@compaction range L-1 "a":"b"
+21:18:52.776730 table@compaction L0·1 -> L1·0 S·704B Q·16
+21:18:52.805377 table@build created L1@5 N·10 S·704B "H\xb4X..\xd4B{,v3":"r\x00\x00..\xd4B{,v5"
+21:18:52.831758 version@stat F·[0 1] S·704B[0B 704B] Sc·[0.00 0.00]
+21:18:52.880053 table@compaction committed F~ S~ Ke·0 D·0 T·103.209521ms
+21:18:52.927249 memdb@flush N·7 S·464B
+21:18:52.979092 memdb@flush created L0@7 N·7 S·609B "Dat..ion,v12":"unc..own,v17"
+21:18:52.979213 version@stat F·[1 1] S·1KiB[609B 704B] Sc·[0.25 0.00]
+21:18:53.005197 memdb@flush committed F·1 T·73.033475ms
+21:18:53.005601 journal@remove removed @3
+21:18:53.005625 table@compaction range L-1 "o":"p"
+21:18:53.005656 table@compaction L0·1 -> L1·1 S·1KiB Q·18
+21:18:53.033004 table@build created L1@8 N·15 S·1KiB "Dat..ion,v12":"unc..own,v17"
+21:18:53.033187 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+21:18:53.059088 table@compaction committed F-1 S-256B Ke·0 D·2 T·53.413442ms
+21:18:53.059498 table@remove removed @7
+21:18:53.059585 table@remove removed @5

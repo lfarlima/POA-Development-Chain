@@ -1,0 +1,35 @@
+=============== May 4, 2021 (EDT) ===============
+21:14:17.021552 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:14:17.095427 db@open opening
+21:14:17.097250 version@stat F·[] S·0B[] Sc·[]
+21:14:17.123330 db@janitor F·2 G·0
+21:14:17.123377 db@open done T·27.916412ms
+21:14:17.123905 db@close closing
+21:14:17.123998 db@close done T·92.053µs
+=============== May 4, 2021 (EDT) ===============
+21:23:24.526634 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:23:24.527282 version@stat F·[] S·0B[] Sc·[]
+21:23:24.527307 db@open opening
+21:23:24.527376 journal@recovery F·1
+21:23:24.532149 journal@recovery recovering @1
+21:23:24.559800 memdb@flush created L0@2 N·10 S·704B "H\xb4X..\xd4B{,v3":"r\x00\x00..\xd4B{,v5"
+21:23:24.564477 version@stat F·[1] S·704B[704B] Sc·[0.25]
+21:23:24.666353 db@janitor F·3 G·0
+21:23:24.666388 db@open done T·139.069645ms
+21:23:24.884884 table@compaction range L-1 "a":"b"
+21:23:24.884913 table@compaction L0·1 -> L1·0 S·704B Q·16
+21:23:24.910929 table@build created L1@5 N·10 S·704B "H\xb4X..\xd4B{,v3":"r\x00\x00..\xd4B{,v5"
+21:23:24.910981 version@stat F·[0 1] S·704B[0B 704B] Sc·[0.00 0.00]
+21:23:24.963059 table@compaction committed F~ S~ Ke·0 D·0 T·78.080888ms
+21:23:25.213925 memdb@flush N·7 S·464B
+21:23:25.240810 memdb@flush created L0@7 N·7 S·609B "Dat..ion,v12":"unc..own,v17"
+21:23:25.240859 version@stat F·[1 1] S·1KiB[609B 704B] Sc·[0.25 0.00]
+21:23:25.266500 memdb@flush committed F·1 T·52.508469ms
+21:23:25.266905 journal@remove removed @3
+21:23:25.266928 table@compaction range L-1 "o":"p"
+21:23:25.266950 table@compaction L0·1 -> L1·1 S·1KiB Q·18
+21:23:25.292636 table@build created L1@8 N·15 S·1KiB "Dat..ion,v12":"unc..own,v17"
+21:23:25.292681 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+21:23:25.318581 table@compaction committed F-1 S-256B Ke·0 D·2 T·51.612987ms
+21:23:25.318971 table@remove removed @7
+21:23:25.319059 table@remove removed @5
