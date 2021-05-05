@@ -1,3 +1,8 @@
+Dependencies required:
+geth
+puppeth
+bootnode
+
 Create new nodes for blockchain network with passwords:
 ./geth --datadire node1 account new
 ./geth --datadire node2 account new
